@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#boites {
+    width: 600px;
+    display: flex;
+    gap: 20px;
+}
+
+.boite {
+    height: 150px;
+    width: 150px;
+    background: rgb(20, 186, 192);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boite p {
+    font-size: 30px;
+    color: white;
+}
